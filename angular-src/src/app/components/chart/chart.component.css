@@ -1,0 +1,74 @@
+body {
+  font: 12px Arial;
+}
+
+path.spy { 
+  stroke: gray;
+  stroke-width: 2;
+  fill: none;
+}
+
+path.backtest {
+  stroke: green;
+  stroke-width: 2;
+  fill: none;
+}
+
+path.live { 
+  stroke: red;
+  stroke-width: 2;
+  fill: none;
+}
+
+path.cone { 
+  stroke: #002288;
+  stroke-width: 1;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.area.above {
+  fill: rgba(0,128,255, 0.2);
+}
+
+div.tooltip {   
+    position: absolute;         
+    text-align: left;         
+    padding: 7px;               
+    font: 14px sans-serif;      
+    background: white; 
+    border: 1px solid gray;
+    border-radius: 8px;         
+    pointer-events: none;    
+    opacity: 0.7;       
+}
+
+/*div.legend {
+    text-align: center;
+    padding: 7px;
+    font: 15px san-serif;
+    width: 100%;
+    background: white;
+}*/
+
+div.title {
+    position: absolute;
+    text-align: center;
+    padding: 7px;
+    font: 20px san-serif;
+    font-weight: bold;
+    width: 100%;
+    background: white;
+}
+
+#linechart {
+    width: 100%;
+    height: 450px;
+}
